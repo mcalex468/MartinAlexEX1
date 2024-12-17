@@ -37,7 +37,7 @@ const filtrarContacte = computed(() => {
     );
 });
 
-// Implementacio watch 
+// Implementacio watch per capturar canvis 
 watch(nombreBuscado, (nouValor, anticValor) => {
   console.log(`El valor a canviat: de ${anticValor} a ${nouValor}`)
 });
