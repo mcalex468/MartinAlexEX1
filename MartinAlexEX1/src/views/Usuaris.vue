@@ -11,6 +11,7 @@
 <script setup>
 import { computed, ref } from 'vue';
 import { watch } from 'vue';
+
 const nombreBuscado = ref('');
 
 const usuaris = [
