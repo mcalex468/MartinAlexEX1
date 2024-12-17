@@ -13,7 +13,7 @@
     nombre: String,
     descripcion: String
   });
+
+  
 </script>
 
-git config --global user.email "alexmaco468@gmail.com"
-git config --global user.name "mcalex468"

@@ -9,8 +9,8 @@ const router = createRouter({
       component: () => import('../views/HomeView.vue'),
     },
     {
-      path: '/productes',
-      name: 'productes',
+      path: '/exercici1',
+      name: 'exercici1',
       component: () => import('../views/ProductoView.vue'),
       children: [
         {
@@ -19,19 +19,19 @@ const router = createRouter({
           component: () => import('../views/DetalleProductoView.vue'),
           props: route=> ({ 
             id:route.params.id, 
-            nombre:route.params.name,
-            descripcion:route.params.description })
+            nombre:route.params.nombre,
+            descripcion:route.params.descripcion })
         },
       ]
     },
     {
-      path: '/comptador',
-      name: 'comptador',
-      component: () => import('../views/Exercici2View.vue'),
+      path: '/exercici2',
+      name: 'exercici2',
+      component: () => import('../views/ComptadorView.vue'),
     },
     {
-      path: '/usuaris',
-      name: 'usuaris',
+      path: '/exercici3',
+      name: 'exercici3',
       component: () => import('../views/Exercici3View.vue'),
     },
   ],

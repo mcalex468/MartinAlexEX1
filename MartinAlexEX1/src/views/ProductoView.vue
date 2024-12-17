@@ -14,13 +14,12 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
 import { RouterLink,RouterView } from 'vue-router';
 
 const productos = [
     { id: 1, nombre: "Producte 1", descripcion: "Descripcio del producte 1" },
     { id: 2, nombre: "Producte 2", descripcion: "Descripcio del producte 2" },
-    { id: 3, nombre: "Prducte 3", descripcion: "Descripcio del producte 3" }
+    { id: 3, nombre: "Producte 3", descripcion: "Descripcio del producte 3" }
 ];
 
 </script>
